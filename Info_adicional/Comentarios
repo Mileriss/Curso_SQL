@@ -1,0 +1,14 @@
+COMENTARIOS
+
+COMENTARIO DE UMA LINHA --
+-- Desta forma é possivel comentar apenas uma linha no código
+
+COMENTARIO DE VARIAS LINHAS
+/*
+Desta forma é possível comentar diversas linhas no código
+1 linha
+2 linhas
+3 linhas
+4 linhas 
+5 linhas
+*/

@@ -1,0 +1,26 @@
+OPERADORES ARITMÉTICOS
++  Adição
+- Subtração
+* Multiplicação
+/ Divisão
+% Módulo (resto da divisão)
+
+OPERADORES 'BIT a BIT'
+& AND
+| OR
+^ OR (exclusivo)
+
+OPERADORES DE COMPARAÇÃO
+= Igual
+> Maior que
+< Menor que
+>= Maior que ou igual
+<= Menor que ou igual
+<> Diferente
+
+OPERADORES COMPOSTOS
++= Adiciona ao igual
+-= Subtrai do igual
+*= Multiplica do igual
+/= Divide do igual
+% Modulo do igual
