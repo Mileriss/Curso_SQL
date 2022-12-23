@@ -1,0 +1,20 @@
+Caracteres_Coringas
+
+* - Representa nenhum ou mais caracteres
+
+? - Representa um unico caractere
+
+[] - Representa qualquer caractere individual com os
+colchetes
+
+! - Representa qualquer caractere fora dos colchetes
+
+- - Representa qualquer caractere individual sem um tamanho especificado
+
+# Representa qualquer caractere numerico
+
+% - Representa nenhum ou mais caracteres
+
+_ - Representa um unico caractere
+
+^ - Representa qualquer caractere fora dos colchetes

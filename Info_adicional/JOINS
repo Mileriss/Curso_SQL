@@ -1,0 +1,14 @@
+JOINS
+
+- Um(a) JOIN é quando existem linhas que coincidem entre 2 ou mais tabelas baseada em uma coluna relacionada entre elas.
+
+TIPOS DE JOINS:
+
+(INNER) JOIN - Retorna registros que há relação em ambas as tabelas
+
+LEFT (OUTER) JOIN - Retorna todos os registros da tabela esquerda e os que estão relacionados com a tabela direita
+
+RIGHT (OUTER) JOIN - Retorna todos os registros da tabela direita e os que estão relacionados com a tabela esquerda
+
+FULL (OUTER) JOIN - Retorna todos os registros que tem relação nas tabelas da esquerda e da direita
+
