@@ -1,0 +1,11 @@
+OPERADORES PARA CONDIÇÕES:
+
+= - Igual
+> - Maior que
+< - Menor que
+>= - Maior que ou igual
+<= - Menor igual ou igual
+<> - Diferente/Não igual
+BETWEEN - Entre um valor e outro
+LIKE - Procura por um padrão
+IN - Especifica varios valores possiveis para uma coluna
