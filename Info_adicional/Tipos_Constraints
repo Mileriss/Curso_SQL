@@ -1,0 +1,21 @@
+Contraints são tipos especificos de regras para os dados de uma tabela
+
+Essas regras são utilizadas para limitar o tipo de dado que vai ir para a tabela, indicando uma quantidade de informação, se é obrigatório ou se pode ser nulo e etc...
+
+AUTO INCREMENT - Vai incrementar um valor automaticamente em uma coluna da tabela.
+Cada registro que for inserido vai receber um valor adicional do ultimo registro, ou seja, <valor + 1>
+
+NOT NULL - Vai exigir que aquela informação seja obrigatório na tabela
+
+UNIQUE - Vai garantir que todos os dados da tabela sejam unicos
+
+PRIMARY KEY - Vai indicar uma chave primária na tabela, onde uma coluna será a responsável por identificar cada um dos registros, uma combinação entre NOT NULL e UNIQUE.
+Por exemplo a coluna ID, onde todos os registros vai ter um ID unico
+
+FOREIGN KEY - Previne ações que possam destruir a ligação entre tabelas
+
+CHECK - Vai garantir que os valores de uma coluna sejam satisfeitos a determinada condição
+
+DEFAULT - Vai especificar um valor 'default' em uma coluna, caso esse valor não seja especificado
+
+CREATE INDEX - Utilizado para criar e recuperar valores de uma tabbela rapidamente
