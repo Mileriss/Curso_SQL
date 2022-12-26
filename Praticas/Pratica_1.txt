@@ -1,0 +1,32 @@
+1 - Crie uma tabela chamada 'clientes'
+Colunas:
+ID (auto incremento, numero, chave primaria)
+Nome (texto, nao pode ser nulo)
+Sobrenome (texto, nao pode ser nulo)
+Cpf (float, nao pode ser nulo)
+DataNascimento (data, nao pode ser nulo)
+Cidade (texto, nao pode ser nulo)
+
+2 - Altere o tipo de dado da coluna 'cpf' de 'float' para 'integer'
+
+3 - Insira 5 registros na tabela
+
+4 - Exiba todos os registros
+
+5 - Delete o registro de ID '3'
+
+6 - Selecione o registro que tenha o ID '2'
+
+7 - Altere o nome do registro com ID '2' para 'teste'
+
+8 - Altere a cidade de todos os registros para 'São Paulo'
+
+9 - Delete todos os registros que tenham o nome 'teste'
+
+10 - Insira um novo registro com 0 em todos os campos
+
+- No final é necessário conter 3 registros com o ID 1, 4, 6 repectivamente
+
+* Se rodar toda a query de uma só vez, apenas o ultimo registro será exibido diante das condições inseridas
+
+

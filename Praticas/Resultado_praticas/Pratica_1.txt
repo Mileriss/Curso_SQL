@@ -1,0 +1,38 @@
+CREATE TABLE clientes(
+    ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Nome VARCHAR(30) NOT NULL,
+    Sobrenome VARCHAR(30) NOT NULL,
+    DataNascimento DATE NOT NULL,
+    Cpf FLOAT(20) NOT NULL,
+    Cidade VARCHAR(30) NOT NULL
+);
+
+ALTER TABLE clientes
+DROP COLUMN 'cpf';
+
+ALTER TABLE clientes
+ADD Cpf INTEGER(20);
+
+INSERT INTO clientes (Nome, Sobrenome, DataNascimento, Cpf, Cidade)
+VALUES ('teste', 'teste', '2000-01-01', '00000000000','São Paulo');
+
+SELECT * FROM clientes;
+
+DELETE FROM clientes
+WHERE ID = 3;
+
+SELECT * FROM clientes
+WHERE ID = 2;
+
+UPDATE clientes
+SET Nome = 'Teste'
+WHERE ID = 2;
+
+UPDATE clientes
+SET Cidade = 'São Paulo';
+
+DELETE FROM clientes
+WHERE Nome = 'Teste' or Nome = 'teste';
+
+INSERT INTO clientes (Nome, Sobrenome, DataNascimento, Cidade, Cpf)
+VALUES (0,0,0,0,0);
